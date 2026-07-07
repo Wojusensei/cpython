@@ -2242,7 +2242,7 @@ always available. Unless explicitly noted otherwise, all variables are read-only
 
       * ``"semaphore"``: a lock uses a semaphore (Python 3.14 and older)
       * ``"mutex+cond"``: a lock uses a mutex and a condition variable (Python 3.14 and older)
-      * ``"pymutex"``: a lock uses the PyMutex implementation (Python 3.15 and newer)
+      * ``"pymutex"``: a lock uses the :c:type:`PyMutex` implementation (Python 3.15 and newer)
       * ``None`` if this information is unknown
 
    .. attribute:: thread_info.version
